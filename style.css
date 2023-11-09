@@ -46,6 +46,10 @@ section {
   background-color: rgba(224, 117, 243, 0.565);
   padding: 15px;
   margin: 10px;
+  /* word spacing */
+  word-spacing: 0.1em;
+  /* letter spacing: kerning */
+  letter-spacing: 0.2em;
 }
 footer {
   padding: 20px;
