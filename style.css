@@ -1,0 +1,56 @@
+/* resetting some default styles for better consistency */
+
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+}
+/* applying basic styling */
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: lightgreen;
+  text-align: center;
+}
+header {
+  background-color: aquamarine;
+  color: black;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+nav ul {
+  height: 6rem;
+  list-style: none;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+nav ul li {
+  margin: 20px;
+  padding: 10px;
+  /* display: flex; */
+}
+main h2 {
+  font-size: 30px;
+  border: 4px double red;
+  border-radius: 10px;
+}
+section {
+  border-radius: 15px;
+  background-color: rgba(224, 117, 243, 0.565);
+  padding: 15px;
+  margin: 10px;
+}
+footer {
+  padding: 20px;
+}
+footer p {
+  background-color: gold;
+  color: blueviolet;
+}
